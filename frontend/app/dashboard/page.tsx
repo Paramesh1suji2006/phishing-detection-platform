@@ -33,7 +33,7 @@ export default function Dashboard() {
     <main className="min-h-screen bg-gray-950 text-white">
       <nav className="bg-gray-900 px-8 py-4 flex justify-between items-center border-b border-gray-800">
         <h1 className="text-green-400 font-bold text-xl">Phishing Detector</h1>
-        <UserButton afterSignOutUrl="/" />
+        <UserButton />
       </nav>
       <div className="max-w-6xl mx-auto px-8 py-10">
         <h2 className="text-3xl font-bold mb-8">Dashboard</h2>
